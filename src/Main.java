@@ -9,9 +9,10 @@ public class Main
         Container container = new Container();
         container.count += 7843;
       //  System.out.println(container.count);
+        System.out.print("Введите число, чтобы посчитать сумму его цифр: ");
 
         Scanner sc = new Scanner(System.in);
-        System.out.println(sumDigits(sc.nextInt()));
+        System.out.println("Сумма: " + sumDigits(sc.nextInt()));
 
 
     }
